@@ -34,14 +34,16 @@ pip install requests
   - Right-click > **View Page Source** > Search `channelId`.
 
 ## 💡 Usage
-1. Replace `YOUR_YOUTUBE_API_KEY` with your actual API key in the script.
+1. Provide your API key by either setting the `YOUTUBE_API_KEY` environment
+   variable or replacing `API_KEY_FALLBACK` in the script with your key.
 2. Run the script:
    ```bash
    python youtube_channel_import.py
    ```
 3. Enter the YouTube Channel ID in the GUI.
 4. Click **"Fetch Videos and Save to CSV"**.
-5. Choose the destination to save the CSV file.
+5. Choose the destination to save the CSV file. A status message in the bottom of
+   the window confirms the outcome of the export.
 
 ## 📦 Output
 The CSV file will contain:
